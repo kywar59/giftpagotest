@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* @import "../node_modules/nouislider/distribute/nouislider.css";  */
+
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,700";
+body {
+    background-color: #FFF !important;
+}
+
+select {
+    font-family: 'FontAwesome', 'Roboto' !important;
+}
+
+.typcn {
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.navbar-white {
+    background-color: #FFF !important;
+    color: #009688 !important;
+}
+
+.jumbotron {
+    background: url("./assets/img/pattern.png") no-repeat;
+    background-size: 100% 100%;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+    /* background-color: #FFF !important; */
+    margin-top: -20px;
+}
+
+.text-white {
+    color: #FFF !important;
+}
+
+.well-trans {
+    background-color: rgba(255, 255, 255, .3) !important;
+    border-radius: 10px !important;
+}
+
+.btn {
+    margin: 0px 1px !important;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-spacing-bold {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.top-20 {
+    margin-top: 20px;
+}

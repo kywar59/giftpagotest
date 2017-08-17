@@ -1,0 +1,73 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "giftpago"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+        "styles.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.min.css",
+        "../node_modules/bootstrap-material-design/dist/css/ripples.min.css",
+        "../node_modules/bootstrap-slider/dist/css/bootstrap-slider.css",
+        "../src/assets/libs/fontawesome/css/font-awesome.min.css",
+        "../node_modules/typicons.font/src/font/typicons.css",
+        "../src/assets/libs/jquery-wizard/prettify.css",
+        "../src/assets/libs/jquery-wizard/md.css"
+      ],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "../node_modules/bootstrap-material-design/dist/js/material.min.js",
+        "../node_modules/bootstrap-material-design/dist/js/ripples.min.js",
+        "../src/assets/libs/jquery-wizard/jquery.bootstrap.wizard.js",
+        "../node_modules/nouislider/distribute/nouislider.css",
+        "../src/assets/libs/dropdownjs/jquery.dropdown.js"
+      ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "project": "src/tsconfig.app.json"
+    },
+    {
+      "project": "src/tsconfig.spec.json"
+    },
+    {
+      "project": "e2e/tsconfig.e2e.json"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+}
